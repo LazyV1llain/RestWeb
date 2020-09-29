@@ -60,7 +60,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle {
-	margin-top: -20px;
+	margin-top: -45px;
 	clear: both;
 }
 
@@ -90,11 +90,11 @@ body {
 		margin-top: 0px;
 	}
 	.navbar-brand {
-		padding-top: 10px;
+		padding-top: 15px;
 		height: 60px;
 	}
 	.navbar-brand h1 {
-		font-size: 5.7vw;
+		font-size: 1.2em;
 	}
 	.navbar-brand p {
 		font-size: .75em;
