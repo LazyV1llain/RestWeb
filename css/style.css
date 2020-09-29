@@ -6,15 +6,12 @@ body {
 #header-nav {
 	border: 0;
 	border-radius: 0;
-	background-color: dodgerblue;
+	background-color: steelblue;
 	color: white;
 }
 #coatofarms {
 	background: url("../Emblem_of_Crimea.svg.png") no-repeat;
 	background-size: cover;
-	height: 120px;
-	width: 105px;
-	margin: 0px 20px 0px 0px;
 }
 .navbar-brand {
 	padding-top: 25px;
@@ -33,4 +30,112 @@ body {
 	color: white;
 	font-weight: 200;
 	font-size: 0.8em;
+}
+
+#nav-list {
+	margin-top: 20px;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+	color: midnightblue;
+}
+
+#nav-list a span {
+	font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+	background-color: deepskyblue;
+}
+
+.navbar-header button.navbar-toggle {
+	margin-top: -20px;
+	clear: both;
+}
+
+#header-nav {
+	margin-bottom: 0px;
+}
+
+.jumbotron {
+	padding-top: 0px;
+}
+
+@media (min-width: 768px) {
+	.container #main-info p {
+	margin-top: 20px;
+	font-size: 1em;
+}
+#coatofarms {
+	height: 70px;
+	width: 60px;
+	margin: 20px 20px 20px 0px;
+}
+}
+
+@media (max-width: 767px) {
+	.jumbotron {
+		padding: 0px;
+		margin-top: 0px;
+	}
+	.navbar-brand {
+		padding-top: 10px;
+		height: 60px;
+	}
+	.navbar-brand h1 {
+		font-size: 5.7vw;
+	}
+	.navbar-brand p {
+		font-size: .75em;
+	}
+	#collapsable-nav a {
+		font-size: 1em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	.container #main-info p {
+	margin-top: 20px;
+	font-size: 0.7em;
+	}
+	#coatofarms {
+	height: 50px;
+	width: 43px;
+	margin: 10px 10px 10px 10px;
+	}
+}
+
+.container .row h2 {
+	font-size: 6.1vw;
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+	.jumbotron {
+		background: url("Crimean-landscape-1200.png") no-repeat;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.jumbotron {
+		background: url("Crimean-landscape-992.png") no-repeat;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron {
+		background: url("Crimean-landscape-768.png") no-repeat;
+	}
 }
