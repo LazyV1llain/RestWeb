@@ -132,8 +132,7 @@ body {
 }
 
 #myCarousel {
-	border-top: 2px solid steelblue;
-	border-bottom: 2px solid steelblue;
+	border: 2px solid steelblue;
 	border-radius: 16px;
 }
 .carousel-inner {
@@ -148,7 +147,7 @@ body {
 	margin: 0px 30px 0px 30px;
 }
 
-.text a{
+.text a {
 	font-weight: 600;
 	font-style: italic;
   color: white;
@@ -161,6 +160,10 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   text-decoration: none;
+}
+
+.geocap a {
+	font-size: 2vw;
 }
 
 #ministries {
@@ -182,6 +185,12 @@ body {
 	height: 70px;
 	width: 110px;
 	margin: 20px 20px 20px 0px;
+}
+#main-info-header h2 {
+	font-size: 6.1vw;
+}
+#menu-header-cont {
+	margin-top: 250px;
 }
 }
 
@@ -261,14 +270,13 @@ footer .text-center {
 	width: 78px;
 	margin: 10px 10px 10px 10px;
 	}
-}
-
-#main-info-header h2 {
-	font-size: 6.1vw;
+	#main-info-header h2 {
+	font-size: 8vw;
+	margin-bottom: 15px;
+    }
 }
 
 #menu-header-cont {
-	margin-top: 250px;
 	text-align: center;
 }
 
